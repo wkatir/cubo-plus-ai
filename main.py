@@ -4,10 +4,10 @@ def calculate(amount, anual_interest, years):
     return capital
 
 
-amount = float(input("Amount to invest: "))
+amount = float(input("Amount to invest (USD): "))
 anual_interest = float(input("Anual interest (percentaje %): "))
 years = float(input("Years to invest: "))
 
-
-print(calculate(amount,anual_interest,years))
+capital = calculate(amount,anual_interest,years)
+print(f"The return obtaind according to the info provided amount: {amount} (USD), anual interest: {anual_interest}% and years of investment {years} is : {capital} (USD)")
 
