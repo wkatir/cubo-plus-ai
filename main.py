@@ -9,5 +9,11 @@ anual_interest = float(input("Anual interest (percentaje %): "))
 years = float(input("Years to invest: "))
 
 capital = calculate(amount,anual_interest,years)
-print(f"The return obtaind according to the info provided amount: {amount} (USD), anual interest: {anual_interest}% and years of investment {years} is : {capital} (USD)")
+print("------------------------------------------------------------------------------------")
+print(f"Amount: {amount}: {capital} (USD)")
+print(f"(USD), anual interest: {anual_interest} %")
+print(f"Years of investment {years}")
+print("------------------------------------------------------------------------------------")
+print(f"The Captital according to the info provided is : {capital}")
+print("------------------------------------------------------------------------------------")
 
